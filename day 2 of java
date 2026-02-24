@@ -1,0 +1,17 @@
+class sample 
+{
+	static int sq()
+	{
+		int a=2;
+		int res=a*a;
+		return res;
+	}
+}
+class square333
+{
+	public static void main(String[] args) 
+	{
+		int x= sample.sq();
+		System.out.println(x);
+	}
+}
