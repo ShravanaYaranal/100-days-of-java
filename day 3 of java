@@ -1,0 +1,83 @@
+class program3 
+{
+	public static void print1(int start, int end) 
+	{
+		for (int i=start; i<=end; i++)
+		{
+			System.out.print(i);
+		}
+		System.out.println();
+	
+		for(int i=end; i>=start; i--)
+		{
+			System.out.print(i);
+		
+		}
+			System.out.println();
+
+		for(int i=start; i<=end; i++)
+		{
+			if(i<=3)
+				
+			System.out.print(i);
+			}
+			System.out.println();
+		
+		for(int i=end-3; i>=start; i--)
+		{
+			
+				
+			System.out.print(i);
+		}
+		System.out.println();
+		
+		for(int i=start+3; i<=end; i++)
+		{
+		
+			
+			System.out.print(i);
+			
+		}
+			System.out.println();
+			
+			for(int i=end; i>=start; i--)
+		{
+				if(i>=4)
+				System.out.print(i);
+		}
+				System.out.println();
+				for(int i=start; i<=end; i++)
+		{
+					if(i%2==0)
+				   System.out.print(i);
+					
+		}
+		System.out.println();
+		for(int i=end; i>=start; i--)
+		{
+			if(i%2==0)
+			System.out.print(i);
+		}
+		 System.out.println(); 
+		 for(int i=start; i<=end; i++)
+		{
+			 if(i%2==1)
+			 System.out.print(i);
+		}
+		System.out.println();
+		for(int i=end; i>=start; i--)
+		{
+			if(i%2==1)
+			System.out.print(i);
+		}
+			System.out.println();
+		}
+		
+	
+	 public static void main(String[] args)
+	{
+		print1(1,6);
+	   
+	}
+
+}
