@@ -1,0 +1,128 @@
+class Elseifladder{
+public static void main(String[]args)
+{
+//prgm to classify num 
+int num=-2;
+if(num<0)
+{
+System.out.println("num is negative");
+}
+else if(num>0)
+{
+System.out.println("num is positive");
+}
+else{
+System.out.println("num is zero");
+}
+//classify age group of a person 
+int age=12;
+if(age<13)
+	{
+	System.out.println("child");
+	}
+
+else if(age>=13 && age<=19)
+	{
+	System.out.println("Teenager");
+	}
+else if(age>=20 && age<=59)
+	{
+	System.out.println("adult");
+	}
+else{
+	System.out.println("senior citizen");
+}
+//print result based on percentage
+int percentage=100;
+if(percentage>=85)
+	{
+	System.out.println("distinction");
+	}
+else if(percentage>=60)
+	{
+	System.out.println("first class");
+	}
+else if(percentage>=35)
+	{
+	System.out.println("pass");
+	}
+else
+{
+	System.out.println("fail");
+}
+//discount based on purchase amount
+int discount=6000;
+if(discount>=5000)
+	{
+	System.out.println("20% discount");
+	}
+	else if(discount>=3000)
+	{
+		System.out.println("15% discount");
+	}
+	else if(discount>=1000)
+	{
+		System.out.println("10% discount");
+	}
+	else{
+		System.out.println("no discount");
+	}
+//classify temp 
+int temp=50;
+if(temp>=40)
+	{
+	System.out.println("very hot");
+	}
+	else if(temp>=30&&temp<=39)
+	{
+		System.out.println("hot");
+	}
+	else if(temp>=20&&temp<=29)
+	{
+		System.out.println("warm");
+	}
+	else if(temp>=10&&temp<=19)
+	{
+		System.out.println("cold");
+	}
+	else{
+		System.out.println("very cold");
+	}
+//employee salary band based on sal
+int sal=10000;
+if(sal>=800000)
+	{
+	System.out.println("senior");
+	}
+else if(sal>=50000)
+	{
+	System.out.println("mid");
+	}
+else if(sal>=25000)
+	{
+	System.out.println("junior");
+	}
+else{
+	System.out.println("entry");
+}
+//alphabet char:'a-z':lowercase,'A-Z':uppercase,'0-9':digit,else:special char
+
+char ch='a';
+int num1='0';
+if(ch>='a'&&ch<='z')
+	{
+	System.out.println("lowercase");
+}
+else if(ch>='A'&&ch<='Z')
+	{
+	System.out.println("uppercase");
+}
+else if(num1>=0&&num1<=9)
+	{
+	System.out.println("digit");
+	}
+else{
+	System.out.println("special character");
+}
+}
+}
