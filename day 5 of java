@@ -1,0 +1,39 @@
+import java.util.Scanner;
+class array1
+{
+	public static void main(String[] args)
+	{Scanner su=new Scanner(System.in);
+		int i;
+		int arr1[]={1,2,3,4,5};
+		
+		for ( i=0;i<arr1.length ;i++ )
+		{System.out.println(arr1[i]);
+		}
+		String bha[]={"anil","akash","yogesh","shreya","tilak"};
+		
+		for ( i=0;i<bha.length ;i++ )
+		{System.out.println(bha[i]);
+		}
+		char ani[]={'a','e','i','o','u'};
+		
+		for ( i=0;i<ani.length ;i++ )
+		{System.out.println(ani[i]);
+		}
+		double zzz[]={3.2,8.4,6.7,5.5,9.9};
+		
+		for ( i=0;i<zzz.length ;i++ )
+		{System.out.println(zzz[i]);
+		}
+		System.out.println("give the values");
+		int y=su.nextInt();
+		int x=su.nextInt();
+		int d=su.nextInt();
+		int e=su.nextInt();
+		int f=su.nextInt();
+		int g=su.nextInt();
+		int yog[]={y,x,d,e,f};
+		for ( i=0;i<yog.length ;i++ )
+		{System.out.println(yog[i]);
+		}
+		}
+}
