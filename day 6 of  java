@@ -1,0 +1,104 @@
+class rapido
+{static void raid(int pin){
+	System.out.println("otp for the ride");
+}
+static void raid(String name){
+	System.out.println("name of the raider");
+}
+static void raid(int no,String name){
+	System.out.println("number of the customer and name of the customer");
+}
+static void raid(String name,int no){
+	System.out.println(" name of the customer and number of the customer");
+}
+void hotel(int no){
+	System.out.println("menu no");
+}
+void hotel(String iteam){
+	System.out.println("iteam name");
+}
+void hotel(int no,String iteam){
+	System.out.println("iteam no and iteam name");
+}
+void hotel(String iteam,int no){
+	System.out.println("iteam name and iteam no");
+}
+static void classroom(int rnum){
+	System.out.println("number for the classroom");
+}
+static void classroom(String subject){
+	System.out.println("name of the subject");
+}
+static void classroom(int rnum,String subject){
+	System.out.println("number of the classroom and name of the subject");
+}
+static void classroom(String subject,int rnum){
+	System.out.println(" name of the subject and number of the classrom");
+}
+void write(int no){
+	System.out.println("write number");
+}
+void write(String iteam){
+	System.out.println("write words");
+}
+void write(int no,String iteam){
+	System.out.println("write number and write words");
+}
+void write(String iteam,int no){
+	System.out.println("write name and write number");
+}
+static void zepto(int price){
+	System.out.println("price of the iteam");
+}
+static void zepto(String iteam){
+	System.out.println("name of the iteam");
+}
+static void zepto(int price,String iteam){
+	System.out.println("price of the iteam and name of the iteam");
+}
+static void zepto(String name,int no){
+	System.out.println(" name of the iteam and number of the price");
+}
+void shop(int size){
+	System.out.println("dress size");
+}
+void shop(String type){
+	System.out.println("dress type");
+}
+void shop(int no,String iteam){
+	System.out.println("size no and name type");
+}
+void shop(String iteam,int no){
+	System.out.println("name type and size no");
+}
+public static void main(String[] args){
+	rapido.raid(1234);
+	rapido.raid("deepak");
+    rapido.raid(12344,"deepak");
+	rapido.raid("deepak",67788);
+	System.out.println("hotel manu");
+	rapido su = new rapido();
+	su.hotel(112);
+	su.hotel("briyani");
+	su.hotel(25,"upma");
+	su.hotel("upma",25);
+	System.out.println("class details");
+	rapido.classroom(4);
+	rapido.classroom("english");
+	rapido.classroom(5,"hindi");
+	rapido.classroom("maths",6);
+	su.write(12);
+	su.write("anusha");
+	su.write(10,"ewit");
+	su.write("ece",025);
+	rapido.zepto(25);
+	rapido.zepto("light");
+	rapido.zepto(123,"fan");
+	rapido.zepto("clock",567);
+	su.shop(32);
+	su.shop("chudidar");
+	su.shop(24,"t-shirt");
+	su.shop("jeans",32);
+	
+}
+}
