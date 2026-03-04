@@ -1,0 +1,28 @@
+class test3 
+{
+	void send(int number)
+	{
+		System.out.println("sending number: "+number);
+	}
+	void send(String text)
+	{
+		System.out.println("sending text: "+text);
+	}
+	void send(int number,String text)
+	{
+		System.out.println("sending number&text: "+number+" "+text);
+	}
+	void send(String text,int number)
+	{
+		System.out.println("sending text&number: "+text+" "+number);
+	}
+
+	public static void main(String[] args) 
+	{
+		test3 t1=new test3();
+		t1.send(45);
+		t1.send("Hello");
+		t1.send(70,"hii");
+		t1.send("hii",35);
+	}
+}
