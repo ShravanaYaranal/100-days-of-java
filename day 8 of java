@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body>div:nth-child(2)
+    {
+    height: 400px;
+    width: 100%;
+    background-image:linear-gradient(to top right,yellow,black,aqua);
+    }
+    body>div:nth-child(4)
+    {
+    height: 400px;
+    width: 100%;
+    background-image:repeating-linear-gradient(to top right,aqua 0%, aqua 10%,black 15%,black 20%) ;
+    }
+    body>div:nth-child(6)
+    {
+    height: 400px;
+    width: 100%;
+    background-image:conic-gradient(green,red);
+    }
+ body>div:nth-child(8)
+ {
+    height: 400px;
+    width: 100%;
+    background-image:repeating-linear-gradient(brown 0%,brown 10%,yellow 15%,yellow 25%);
+ }
+ body>div:nth-child(10)
+ {
+    height: 600px;
+    width:100%;
+    background-image:linear-gradient(orange 0%,orange 33.3%, white 33.3%,white 66.6%,green 66.6%);
+ }
+ body>div:nth-child(10)>div
+ {
+     height:200px;
+     width: 200px;
+     background-image:repeating-conic-gradient(blue 0%,blue 2%,white 2%,white 4%);
+    border-radius:50%;
+    position: relative;
+    left:55x0px;
+    top:200px
+    
+ }
+
+</style>
+<body>
+    <h2>linear gradient</h2>
+    <div>
+
+    </div>
+    <hr>
+    <div>
+
+    </div>
+    <hr>
+    <div>
+
+    </div>
+    <hr>
+    <div>
+
+    </div>
+    <hr>
+    <div>
+ <div> </div>
+    </div>
+    <hr>
+
+
+
+</body>
+</html>
